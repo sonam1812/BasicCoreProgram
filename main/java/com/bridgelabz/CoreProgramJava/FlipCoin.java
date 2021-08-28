@@ -13,7 +13,8 @@ public class FlipCoin {
 	            if (flip == 0) {
 	                result = "Heads";
 	                countHead++;
-	            } else result = "Tails";
+	            } else 
+			    result = "Tails";
 	            countTail++;
 	        }
 	        System.out.println(countHead);
